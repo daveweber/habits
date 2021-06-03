@@ -1,0 +1,30 @@
+@startuml
+class User {
+    firstName: String
+    lastName: String
+    userId: UUID4
+    accountID: String
+}
+
+class Habit {
+    name: String
+    description: String
+    createdAt: Datetime
+    updatedAt: Datetime
+    frequency: Integer
+}
+
+class Goal {
+    name: String
+    description: String
+    createdAt: Datetime
+    updatedAt: Datetime
+    completedAt: Datetime
+    due: Datetime
+
+}
+
+class Routine {
+    habits: List<Habit>   
+}
+@enduml
