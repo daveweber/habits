@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App .btn-group a {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+  opacity: 0.9;
+}
+
+/* Add a background color on hover */
+.App .btn-group a:hover {
+  background-color: #3e8e41;
+}
+
+.App .tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.App .tab-list-item {
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.App .tab-list-active {
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
